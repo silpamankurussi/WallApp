@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Color palette-->
+    <color name="white_50">#ffffff</color>
+
+    <color name="black_700">#505050</color>
+    <color name="black_800">#121212</color>
+    <color name="black_900">#000000</color>
+
+    <!--primary color-->
+    <color name="primary_50">#fdfce6</color>
+    <color name="primary_100">#faf7c0</color>
+    <color name="primary_200">#f7f297</color>
+    <color name="primary_300">#f4ec6d</color>
+    <color name="primary_500">#eee323</color>
+    <color name="primary_600">#f0d21e</color>
+    <color name="primary_700">#efba12</color>
+    <color name="primary_800">#eea202</color>
+    <color name="primary_900">#EEA202</color>
+
+    <!--secondary color-->
+    <color name="secondary_200">#9ea1d9</color>
+    <color name="secondary_300">#777dc9</color>
+    <color name="secondary_400">#5b60be</color>
+    <color name="secondary_500">#4044b2</color>
+
+    <color name="red_200">#cf7779</color>
+    <color name="red_400">#ff4c5d</color>
+
+    <color name="white_50_alpha_060">#99ffffff</color>
+
+    <color name="blue_50_alpha_060">#99eef0f2</color>
+
+    <color name="black_900_alpha_020">#33000000</color>
+    <color name="black_900_alpha_087">#de000000</color>
+    <color name="black_900_alpha_060">#99000000</color>
+
+    <color name="transparent">#00000000</color>
+
+
+    <!--Nav bar color protection for behavior differences between Android P and Q. All sdk-->
+    <!--levels should draw fullscreen. P should color the nav bar with a translucent background -->
+    <!--to guard for contrast. Q should have a transparent nav bar as Q will automatically -->
+    <!--handles contrast by either dynamically coloring the nav bar handle (gesture nav) -->
+    <!--or automatically applying a translucent background (3-button mode).-->
+    <color name="nav_bar">@color/black_900_alpha_020</color>
+
+</resources>

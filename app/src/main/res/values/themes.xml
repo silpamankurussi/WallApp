@@ -1,0 +1,79 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--Final, top-level theme-->
+    <style name="Theme.WallApp.DayNight" parent="Theme.WallApp"/>
+
+    <!-- Base application theme. -->
+    <style name="Theme.WallApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_900</item>
+        <item name="colorPrimaryVariant">@color/primary_800</item>
+         <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_500</item>
+        <item name="colorSecondaryVariant">@color/secondary_400</item>
+
+        <!--applied to text and icons (and sometimes surfaces) that appear in front of primary and secondary-->
+        <item name="colorOnPrimary">@color/white_50</item>
+        <item name="colorOnSecondary">@color/black_900</item>
+        <item name="colorOnBackground">@color/black_900</item>
+        <item name="colorOnSurface">@color/black_900</item>
+        <item name="colorOnError">@color/black_900</item>
+        <item name="colorOnPrimarySurface">@color/white_50</item>
+        <item name="colorPrimarySurface">@color/white_50</item>
+        <item name="divider">@color/black_900_alpha_020</item>
+
+
+        <item name="scrimBackground">@color/white_50_alpha_060</item>
+        <item name="android:statusBarColor">@color/black_700</item>
+        <item name="android:navigationBarColor">@color/nav_bar</item>
+
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.LargeComponent</item>
+
+        <!--Typography-->
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Overline</item>
+
+        <item name="emphasisHighAlpha">0.87</item>
+        <item name="emphasisMediumAlpha">0.60</item>
+        <item name="emphasisDisabledAlpha">0.38</item>
+
+        <item name="motionInterpolatorPersistent">@android:interpolator/fast_out_slow_in</item>
+        <item name="motionInterpolatorIncoming">@android:interpolator/decelerate_cubic</item>
+        <item name="motionInterpolatorOutgoing">@android:interpolator/accelerate_cubic</item>
+
+        <!--Styles-->
+        <item name="bottomAppBarStyle">@style/Widget.MaterialComponents.BottomAppBar.PrimarySurface</item>
+        <item name="bottomSheetStyle">@style/Widget.MaterialComponents.BottomSheet.Modal</item>
+        <item name="navigationViewStyle">@style/Widget.Design.NavigationView</item>
+
+
+    </style>
+
+    <style name="Theme.WallApp.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+   <!-- <style name="Theme.WallApp.DayNight.NoActionBar.SplashScreen">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>-->
+
+    <style name="Theme.WallApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.WallApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
