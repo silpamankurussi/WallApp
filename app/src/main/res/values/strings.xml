@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">WallApp</string>
+    <string name="action_settings">Settings</string>
+
+    <!--splash screen-->
+    <string name="welcome_to">Welcome To</string>
+
+    <!--login-->
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="to">======TO======</string>
+    <string name="your_account"> YOUR ACCOUNT</string>
+    <string name="welcome">Welcome!</string>
+    <string name="forgot_password">Forgot your password?</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="home_fragment">Home</string>
+    <string name="simple_fragment">Simple</string>
+    <string name="settings_fragment">Settings</string>
+    <string name="send_task_fragment">Send</string>
+    <string name="action_home">Home</string>
+    <string name="action_list">List</string>
+    <string name="user_list">User List</string>
+    <string name="action_help">Help</string>
+    <string name="logout">Logout</string>
+
+    <!--Tabs-->
+    <string name="tab_1">Tab 1</string>
+    <string name="tab_2">Tab 2</string>
+    <string name="tab_3">Tab 3</string>
+
+    <!--top app bar-->
+    <string name="search">Search</string>
+    <string name="share">Share</string>
+
+    <!--send fragment-->
+    <string name="from">From:</string>
+    <string name="to_">To:</string>
+    <string name="subject">Subject:</string>
+    <string name="due_date">Due Date:</string>
+    <string name="message">Message:</string>
+    <string name="send">Send</string>
+
+    <!--Custom Dialog-->
+    <string name="my_title">My Title</string>
+    <string name="enter_message">Enter your message here</string>
+    <string name="test">Test</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="sample_button">Sample Alert Dialog</string>
+
+</resources>
